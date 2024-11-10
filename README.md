@@ -20,7 +20,6 @@ npm run build
 npm start
 ```
 # My MERN Chat App
-
 Here are some screenshots of the app:
 
 ## 1. Chat Page
