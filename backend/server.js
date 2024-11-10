@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://chatapp-nu-two.vercel.app',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
   credentials: true, 
@@ -43,7 +43,7 @@ app.get('*', (req, res) => {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://chatapp-nu-two.vercel.app',
     methods: ['GET', 'POST'],
   },
 });
